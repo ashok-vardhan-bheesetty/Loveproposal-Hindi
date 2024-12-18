@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Proposal</title>
+    <link rel="stylesheet" href="./CSS/proposalstyle.css">
+    
+</head>
+<body>
+    <!-- Page 1 content -->
+    <div id="page01" class="page1">
+        <h1>I have Something Special For You....</h1>
+        <p>Are you ready to see this?</p>
+
+        <!-- Buttons to trigger the audio -->
+        <button class="playbtn" onclick="playAudio()">Yes</button>
+        <button class="playbtn"id="noButton" onmouseover="moveButton()">No</button>
+
+        <!-- Audio elements -->
+        <audio id="myAudio" autoplay loop>
+            <source src="./Images/Climax Bgm.mp3" type="audio/mp3">
+        </audio>
+    </div>
+
+    <!-- Page 2 content (hidden initially) -->
+    <div id="page2" class="page2">
+        <div class="pg2-cont">
+            <h1>अरे...</h1>
+        <p>        क्या कर रहे हो? मैं क्या कहूँ, ये सोच रहे हो? बहुत कुछ कहने को है, लेकिन इस पूरी दुनिया के प्रेम को एक शब्द में व्यक्त कर पाऊं तो अच्छा होगा... 
+            अगर व्यक्त करने के बाद उसे वापस नहीं समझा पाऊं तो क्या? तुम्हारे लिए प्रेम को शब्दों में व्यक्त करना मेरा दिल चाहता है, लेकिन एक बात जरूर कहता हूँ, जब तुमसे 
+            मिलूँ, तो जो महसूस करता हूँ, वह शब्दों से कह नहीं सकता... मेरे मन में जो प्रेम है, उसे शब्दों में समेटने के लिए शब्द भी कम पड़ जाते हैं। हर पल समुद्र की तरह प्रेम
+             लाना और तुम्हारे ऊपर लिखना चाहता हूँ। हमेशा आने वाले आलोक की तरह, प्रेम का नया परिचय देने का मन करता है। इस प्रेम को अपने मन में समेटने के लिए बहुत मुश्किल है,
+              बस एक बार कहूँ, क्या तुम मेरे साथ उस एहसास को महसूस करोगी?
+            .</p>
+            <p>क्या तुम विश्वास करोगी कि तुम्हारी दूरियों से मेरी सांस रुकने लगती है? प्रेम जन्म लेने के लिए एक पल की ज़रूरत होती है, वह पल अभी भी तुम्हारे लिए कभी भी आ सकता है। हमारी सोच में जो भी समय लगे, मुझे इस बात का कोई अंदाजा नहीं, लेकिन साथ में गुज़ारने के पल जीवन में असल खूबसूरती लाते हैं।
+                ...</p>
+                <p>ऐसा नहीं था कि हम एक-दूसरे से बात करेंगे, लेकिन धीरे-धीरे यह एहसास बढ़ता गया। अगर नहीं कहा तो यह ख्वाब के जैसे खत्म हो सकता है, इस डर से कह रहा हूँ। तुमसे प्रेम कितना है, यह जानना चाहता हूँ, ताकि हम एक-दूसरे के साथ वो पल महसूस कर सकें, जो जीवनभर याद रहे। वो पल हमेशा मेरी आँखों में बसा रहेगा, उस समय का आनंद समझ नहीं सकता, लेकिन जब तुमसे मिला, तो दिल को सुकून मिला। क्यों इतना प्रेम कर रहा हूँ, क्यों इतना चाहता हूँ? इसका कोई जवाब नहीं, क्योंकि बिना कारण प्रेम सबसे सुंदर होता है...
+                </p>
+                     <p>इसलिए, अगर हम हर पल साथ रहकर चलते हैं, तो वही मेरे लिए लाखों की तरह होगा। इतना प्यार है, इसलिए इतनी पीड़ा भी है...
+                    </p>
+                     <p>यह सब पढ़ने के बाद मुझे क्या लगता है, मुझे नहीं पता, लेकिन अगर मैं देखूं तो लिखी हुई हर एक शब्द में मुझे इतना प्यार दिखाई देता है...
+                        </p>
+                <p>अंत में एक बात, इस पल को स्वीकार कर हम यात्रा शुरू करें। मेरी ज़िंदगी में, मुझे नहीं पता कि मैं कितना कमाया और बढ़ा, लेकिन मैं हर पल तुम्हें बिना कष्ट दिए देखता रहूँगा... साथ बिताने के लिए, चाहे जितनी कठिनाइयाँ आ जाएं, मैं तैयार हूँ... खत्म होने का विचार दुखद है, लेकिन फिर से मिलना का विचार अच्छा है, और इसलिए इस समय मैं इसे खत्म कर रहा हूँ, ध्यान रखना।
+                </p>
+            <p>यह सब कहने के बाद, अगर यह नहीं कह पाता तो क्या होता...
+                ...,</p>
+        <p>I Love You❤</p>
+        </div>
+        <div class="pg2-final">
+            <h1>I Miss You Raa</h1>
+        </div>
+        <div class="fin-btns">
+            <p>Now Tell Me...?(Do you love me)</p>
+            <button class="responsebtn"  id="yesButtonPage2" onclick="accepted()">Yes</button>
+            <button class="responsebtn" id="noButton2" onmouseover="moveButton2()">No</button>
+
+        </div>
+    </div>
+    <div id="page3" class="page3">
+        <canvas id="fireworksCanvas">
+        </canvas>
+        <div class="text">
+                <h1>I Love You ❤</h1>
+                <p>Eeeew....आज का दिन मैं जिंदगी भर याद रखूंगा। बस इसी एक बात ने मेरे दिल को खुशी से भर दिया...
+                    अब मेरे बारे में सोचना शुरू करो। तुम्हारे साथ यह सफर ऐसा लगता है जैसे कोई अज्ञात महासागर हो,
+                    फिर भी कोई बात नहीं, मंज़िल चाहे जो भी हो, मैं तुम्हारे हर कदम पर तुम्हारे साथ रहूंगा।
+                    सच में, इस पल ने मेरे प्यार को जैसे नई जिंदगी दी है। once again i miss you (it's more than i love you).....</p>
+                    <img src="./Images/sticker.png">
+        </div>
+    </div>
+
+    <script>
+        // Function to play the 'Yes' audio and hide page1 with fade-out
+        function playAudio() {
+            const audio = document.getElementById('myAudio');
+            const page1 = document.getElementById('page01');
+            const page2 = document.getElementById('page2');
+            const noButton = document.getElementById('noButton');
+            const noButton2 =document.getElementById('noButton2');
+            const page3 =document.getElementById('page3');
+            audio.play();  // Play the audio for 'Yes'
+
+            // Add fade-out class to trigger the animation on page1
+            page1.classList.add('fade-out');
+
+            // Show page2 after fade-out animation completes
+            setTimeout(function() {
+                page1.style.display = "none";  // Hide page1 after fade-out
+                page2.style.display = "block"; // Show page2 after fade-out
+            }, 2000); // Timeout matches the fade-out animation duration (2s)
+        }
+        
+       // Function for accepting the proposal (Mobile/Desktop)
+       function accepted() {
+    const page2 = document.getElementById('page2');
+    const page3 = document.getElementById('page3');
+
+    // Fade out Page 2
+    page2.classList.add('fade-out');
+
+    setTimeout(function () {
+    page2.style.display = "none"; 
+    page3.style.display="flex"; // Hide page2 after fade-out
+}, 2000); // Timeout matches the fade-out animation duration (2s)
+}
+
+        function moveButton() {
+      const newX = Math.floor(Math.random() * (window.innerWidth - noButton.offsetWidth));
+      const newY = Math.floor(Math.random() * (window.innerHeight - noButton.offsetHeight));
+      noButton.style.position = 'absolute';
+      noButton.style.left = newX + 'px';
+      noButton.style.top = newY + 'px';
+    }
+    function moveButton2() {
+      const newX = Math.floor(Math.random() * (window.innerWidth - noButton2.offsetWidth));
+      const newY = Math.floor(Math.random() * (window.innerHeight - noButton2.offsetHeight));
+      noButton2.style.position = 'absolute';
+      noButton2.style.left = newX + 'px';
+      noButton2.style.top = newY + 'px';
+    }
+   
+        
+    </script>
+   <script>
+    const canvas = document.getElementById('fireworksCanvas');
+    const ctx = canvas.getContext('2d');
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+
+    const fireworks = [];
+    const particles = [];
+
+    class Firework {
+        constructor(x, y, targetX, targetY) {
+            this.x = x;
+            this.y = y;
+            this.targetX = targetX;
+            this.targetY = targetY;
+            this.speed = 3;
+            this.radius = 3;
+            this.color = `hsl(${Math.random() * 180}, 100%, 50%)`;
+            this.exploded = false;
+        }
+
+        update() {
+            const dx = this.targetX - this.x;
+            const dy = this.targetY - this.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+            const angle = Math.atan2(dy, dx);
+
+            if (distance > 5) {
+                this.x += Math.cos(angle) * this.speed;
+                this.y += Math.sin(angle) * this.speed;
+            } else {
+                this.exploded = true;
+                for (let i = 0; i < 50; i++) {
+                    particles.push(new Particle(this.targetX, this.targetY, this.color));
+                }
+            }
+
+            this.draw();
+        }
+
+        draw() {
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+            ctx.fillStyle = this.color;
+            ctx.fill();
+        }
+    }
+    
+    class Particle {
+        constructor(x, y, color) {
+            this.x = x;
+            this.y = y;
+            this.color = color;
+            this.radius = Math.random() * 2 + 1;
+            this.speedX = Math.random() * 4 - 2;
+            this.speedY = Math.random() * 4 - 2;
+            this.alpha = 1;
+        }
+
+        update() {
+            this.x += this.speedX;
+            this.y += this.speedY;
+            this.alpha -= 0.02;
+            this.draw();
+        }
+
+        draw() {
+            ctx.save();
+            ctx.globalAlpha = this.alpha;
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+            ctx.fillStyle = this.color;
+            ctx.fill();
+            ctx.restore();
+        }
+    }
+
+
+    function launchFirework() {
+        const targetX = Math.random() * canvas.width;
+        const targetY = Math.random() * (canvas.height / 2);
+        fireworks.push(new Firework(canvas.width / 2, canvas.height, targetX, targetY));
+    }
+
+
+    function animate() {
+        ctx.fillStyle = 'rgba(0, 0, 0, 0.1)';
+        ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        fireworks.forEach((firework, index) => {
+            firework.update();
+            if (firework.exploded) fireworks.splice(index, 1);
+        });
+
+        particles.forEach((particle, index) => {
+            particle.update();
+            if (particle.alpha <= 0) particles.splice(index, 1);
+        });
+
+        requestAnimationFrame(animate);
+    }
+
+    // Launch fireworks continuously
+   // Launch first fireworks
+setInterval(launchFirework, 800); // Launch every 800ms
+
+// Combined window.onload
+window.onload = () => {
+    animate();  // Call the first animation loop
+};
+    
+</script>
+
+
+
+</body>
+</html>
